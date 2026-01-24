@@ -1,4 +1,4 @@
-﻿# IA-AirBnB
+# IA-AirBnB
 
 ## Objectif
 Construire un pipeline complet de data science pour predire le prix d'un logement Airbnb
@@ -26,8 +26,13 @@ Le script `ia_airbnb_pipeline.py` realise l'ensemble du pipeline :
 Les figures sont generees dans `outputs/figures/`.
 
 ## Execution
-Installer les dependances principales (ex: `pandas`, `numpy`, `matplotlib`, `seaborn`,
-`scikit-learn`) puis executer :
+Installer les dependances principales via :
+
+```bash
+pip install -r requirements.txt
+```
+
+Puis executer :
 
 ```bash
 python ia_airbnb_pipeline.py
@@ -35,4 +40,4 @@ python ia_airbnb_pipeline.py
 
 ## Resultats
 Le script affiche les dimensions, le nombre de doublons, les scores R2 et enregistre
-les graphiques dans `outputs/figures/`.
+les graphiques dans `outputs/figures/` (dossier ignore par Git).
